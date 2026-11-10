@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#004e5c", "surface-container-high": "#262a35", "error": "#ffb4ab", "on-tertiary-container": "#00452e", "primary-fixed-dim": "#4cd7f6", "outline": "#869397", "surface-container": "#1c1f2a", "secondary-fixed": "#d8e2ff", "on-primary-fixed": "#001f26", "surface": "#0f131d", "on-surface": "#dfe2f1", "surface-variant": "#313540", "inverse-primary": "#00687a", "on-secondary-fixed-variant": "#004395", "tertiary": "#4edea3", "tertiary-fixed-dim": "#4edea3", "surface-dim": "#0f131d", "surface-container-lowest": "#0a0e18", "primary-fixed": "#acedff", "on-primary": "#003640", "tertiary-fixed": "#6ffbbe", "on-primary-container": "#00424f", "on-secondary-fixed": "#001a42", "tertiary-container": "#1bbd85", "on-tertiary-fixed-variant": "#005236", "outline-variant": "#3d494c", "inverse-on-surface": "#2c303b", "secondary-fixed-dim": "#adc6ff", "secondary": "#adc6ff", "on-tertiary-fixed": "#002113", "on-secondary": "#002e6a", "background": "#0f131d", "surface-container-highest": "#313540", "on-error-container": "#ffdad6", "secondary-container": "#0566d9", "primary-container": "#06b6d4", "error-container": "#93000a", "inverse-surface": "#dfe2f1", "surface-tint": "#4cd7f6", "on-secondary-container": "#e6ecff", "primary": "#4cd7f6", "on-tertiary": "#003824", "on-error": "#690005", "surface-bright": "#353944", "on-background": "#dfe2f1", "on-surface-variant": "#bcc9cd", "surface-container-low": "#171b26" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "1.5rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "space-2xl": "2rem", "gutter-lg": "1.5rem", "margin-lg": "2rem", "gutter": "1rem", "space-lg": "1rem", "space-md": "0.75rem", "margin-md": "1.5rem", "margin": "1rem" }, "fontFamily": { "headline-md": ["Geist"], "label-lg": ["JetBrains Mono"], "body-sm": ["Geist"], "label-sm": ["JetBrains Mono"], "headline-xl-mobile": ["Geist"], "label-md": ["JetBrains Mono"], "body-lg": ["Geist"], "body-md": ["Geist"], "code-timecode": ["JetBrains Mono"], "headline-xl": ["Geist"], "headline-lg": ["Geist"] }, "fontSize": { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "500" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "400" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "code-timecode": ["13px", { "lineHeight": "18px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "headline-xl": ["36px", { "lineHeight": "44px", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "32px", "fontWeight": "600" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary selection:text-on-primary"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary flex-shrink-0"><span class="material-symbols-outlined text-[20px]">graphic_eq</span></div><div class="flex flex-col min-w-0"><span class="font-headline-md text-headline-md text-on-surface truncate">مُطابق الصوت والنصوص</span><div class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-tertiary">السيرفر جاهز ⚡</span></div></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-gutter pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full gap-space-lg select-none">
+<!-- Top Engine Diagnostic Strip -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-low p-space-md rounded-xl shadow-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">محرك المطابقة المختار</span>
+<span class="font-label-md text-label-md text-on-surface truncate">Whisper-X + CTC v2.4 (عصبي)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-high px-space-sm py-1 rounded-full flex-shrink-0">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="font-label-sm text-label-sm text-tertiary">24ms زمن الاستجابة ⚡</span>
+</div>
+</div>
+<!-- Dual Inputs Bento Container -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between px-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">input</span>
+<span class="font-headline-md text-headline-md text-on-surface">مدخلات المعالجة الصوتية</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary">ملفان جاهزان للمطابقة</span>
+</div>
+<!-- Audio Source Card -->
+<div class="flex flex-col gap-space-md bg-surface-container p-space-md rounded-xl shadow-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">audio_file</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">تلاوة_سورة_الفاتحة.wav</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-surface-container-high px-1.5 py-0.5 rounded">WAV 48kHz</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">14.8 MB • 03:42 دقيقة • يدعم MP3, WAV, M4A</span>
+</div>
+</div>
+<button class="flex items-center gap-1 text-primary hover:text-primary-fixed text-label-sm font-label-sm flex-shrink-0 transition-colors bg-surface-container-high px-space-sm py-1.5 rounded-lg" type="button">
+<span class="material-symbols-outlined text-[16px]">swap_horiz</span>
+<span>استبدال</span>
+</button>
+</div>
+<!-- Waveform Deck Mini -->
+<div class="flex items-center gap-space-md bg-surface-container-lowest p-space-sm rounded-lg">
+<button class="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-on-primary flex-shrink-0 shadow-sm active:scale-95 transition-transform" id="playBtn" type="button">
+<span class="material-symbols-outlined text-[20px]" id="playIcon" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="flex-1 flex items-center gap-1 h-8 px-space-xs overflow-hidden">
+<span class="w-1 bg-primary/40 rounded-full h-2"></span>
+<span class="w-1 bg-primary/60 rounded-full h-4"></span>
+<span class="w-1 bg-primary/50 rounded-full h-3"></span>
+<span class="w-1 bg-primary rounded-full h-6 animate-pulse"></span>
+<span class="w-1 bg-primary/90 rounded-full h-7"></span>
+<span class="w-1 bg-primary rounded-full h-5"></span>
+<span class="w-1 bg-tertiary rounded-full h-8"></span>
+<span class="w-1 bg-primary/80 rounded-full h-4"></span>
+<span class="w-1 bg-primary/30 rounded-full h-2"></span>
+<span class="w-1 bg-primary/70 rounded-full h-5"></span>
+<span class="w-1 bg-primary/90 rounded-full h-7"></span>
+<span class="w-1 bg-primary/60 rounded-full h-3"></span>
+<span class="w-1 bg-primary/40 rounded-full h-2"></span>
+<span class="w-1 bg-primary/80 rounded-full h-6"></span>
+<span class="w-1 bg-primary rounded-full h-7"></span>
+<span class="w-1 bg-tertiary rounded-full h-8"></span>
+<span class="w-1 bg-primary/70 rounded-full h-5"></span>
+<span class="w-1 bg-primary/40 rounded-full h-3"></span>
+<span class="w-1 bg-primary/60 rounded-full h-4"></span>
+<span class="w-1 bg-primary/80 rounded-full h-6"></span>
+<span class="w-1 bg-primary/30 rounded-full h-2"></span>
+<span class="w-1 bg-primary/50 rounded-full h-4"></span>
+<span class="w-1 bg-primary/90 rounded-full h-7"></span>
+<span class="w-1 bg-primary/40 rounded-full h-3"></span>
+</div>
+<div class="flex flex-col items-end flex-shrink-0">
+<span class="font-code-timecode text-code-timecode text-primary">00:01.76</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">03:42.00</span>
+</div>
+</div>
+</div>
+<!-- Reference Text Card -->
+<div class="flex flex-col gap-space-md bg-surface-container p-space-md rounded-xl shadow-md">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/30 flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">description</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium">النص المرجعي الصوتي (UTF-8)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ملف نصي مطابق للرسم العثماني المصحفي</span>
+</div>
+</div>
+<button class="flex items-center gap-1 text-secondary hover:text-secondary-fixed text-label-sm font-label-sm flex-shrink-0 transition-colors bg-surface-container-high px-space-sm py-1.5 rounded-lg" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+<span>تعديل</span>
+</button>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ • الرَّحْمَٰنِ الرَّحِيمِ • مَالِكِ يَوْمِ الدِّينِ • إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ...
+        </p>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container-high px-space-sm py-1 rounded text-on-surface">184 رمز / توكن (Tokens)</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high px-space-sm py-1 rounded text-on-surface">28 جملة مقطوعة</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ترميز سليم 100%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Hyperparameters Section -->
+<div class="flex flex-col gap-space-sm bg-surface-container-low p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">tune</span>
+<span class="font-headline-md text-headline-md text-on-surface">معايير دقة المحاذاة (Hyperparameters)</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-label-sm">ضبط فوري</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<!-- Toggle 1 -->
+<label class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">تقطيع الفونيمات</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Phoneme Slices</span>
+</div>
+<input checked="" class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox"/>
+</label>
+<!-- Toggle 2 -->
+<label class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">عتبة الثقة σ</span>
+<span class="font-label-sm text-label-sm text-tertiary truncate">Confidence > 95%</span>
+</div>
+<input checked="" class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox"/>
+</label>
+<!-- Toggle 3 -->
+<label class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">قص فترات الصمت</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Silence > 350ms</span>
+</div>
+<input checked="" class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox"/>
+</label>
+<!-- Toggle 4 -->
+<label class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">تنعيم كاشف الصوت</span>
+<span class="font-label-sm text-label-sm text-primary truncate">VAD Adaptor: تلقائي</span>
+</div>
+<input class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox"/>
+</label>
+</div>
+</div>
+<!-- Primary Action Area -->
+<div class="flex flex-col gap-space-xs">
+<button class="w-full relative overflow-hidden bg-gradient-to-r from-primary to-secondary-container text-on-surface font-headline-md text-headline-md py-space-md px-space-lg rounded-xl shadow-[0_0_24px_rgba(6,182,212,0.35)] active:scale-[0.99] transition-all flex items-center justify-center gap-space-sm group" id="alignTriggerBtn" type="button">
+<span class="material-symbols-outlined text-[24px] text-on-primary animate-bounce">bolt</span>
+<span class="text-surface-container-lowest font-bold">توليد التوقيتات وملف التقطيع</span>
+<span class="font-label-sm text-label-sm bg-surface-container-lowest/25 text-surface-container-lowest px-2 py-0.5 rounded-full mr-space-xs">معالجة فورية</span>
+</button>
+<div class="flex items-center justify-center gap-1 text-center">
+<span class="material-symbols-outlined text-[14px] text-tertiary">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">محاذاة متزامنة حتى مستوى أجزاء الألف من الثانية (±2ms)</span>
+</div>
+</div>
+<!-- Processing & Output Preview Section -->
+<div class="flex flex-col gap-space-md bg-surface-container p-space-md rounded-xl shadow-md">
+<!-- Status Header -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<div class="w-3 h-3 rounded-full bg-tertiary animate-ping"></div>
+<span class="font-headline-md text-headline-md text-on-surface">حزمة المزامنة الناتجة</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-lowest px-space-sm py-1 rounded-full text-tertiary">
+<span class="material-symbols-outlined text-[16px]">task_alt</span>
+<span class="font-label-sm text-label-sm">تمت المزامنة بنجاح في 0.84 ثانية ✓</span>
+</div>
+</div>
+<!-- Format Switcher Pills -->
+<div class="flex items-center gap-space-xs bg-surface-container-lowest p-1 rounded-lg">
+<button class="flex-1 py-1.5 text-center font-label-md text-label-md rounded bg-primary text-on-primary transition-all" type="button">JSON (نشط)</button>
+<button class="flex-1 py-1.5 text-center font-label-md text-label-md rounded text-on-surface-variant hover:text-on-surface transition-all" type="button">SRT</button>
+<button class="flex-1 py-1.5 text-center font-label-md text-label-md rounded text-on-surface-variant hover:text-on-surface transition-all" type="button">VTT</button>
+<button class="flex-1 py-1.5 text-center font-label-md text-label-md rounded text-on-surface-variant hover:text-on-surface transition-all" type="button">CSV</button>
+</div>
+<!-- Timeline Inspection Card -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-label-md text-label-md text-primary">معاينة الخط الزمني للكلمات</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">انقر للاستماع للمقطع</span>
+</div>
+<!-- Word Pill 1 -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg transition-transform active:scale-[0.99] cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary flex items-center justify-center font-label-sm text-label-sm">1</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold">بِسْمِ</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-code-timecode text-code-timecode text-on-surface">0.00s ➔ 0.42s</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-surface-container-lowest px-2 py-0.5 rounded">ثقة 99.4%</span>
+<span class="material-symbols-outlined text-primary text-[18px]">volume_up</span>
+</div>
+</div>
+<!-- Word Pill 2 -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg transition-transform active:scale-[0.99] cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary flex items-center justify-center font-label-sm text-label-sm">2</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold">اللَّهِ</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-code-timecode text-code-timecode text-on-surface">0.42s ➔ 0.98s</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-surface-container-lowest px-2 py-0.5 rounded">ثقة 98.9%</span>
+<span class="material-symbols-outlined text-primary text-[18px]">volume_up</span>
+</div>
+</div>
+<!-- Word Pill 3 -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-lg transition-transform active:scale-[0.99] cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded bg-surface-container-high text-primary flex items-center justify-center font-label-sm text-label-sm">3</span>
+<span class="font-body-lg text-body-lg text-on-surface font-semibold">الرَّحْمَٰنِ</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-code-timecode text-code-timecode text-on-surface">0.98s ➔ 1.76s</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-surface-container-lowest px-2 py-0.5 rounded">ثقة 99.1%</span>
+<span class="material-symbols-outlined text-primary text-[18px]">volume_up</span>
+</div>
+</div>
+</div>
+<!-- Code Editor Surface -->
+<div class="flex flex-col bg-surface-container-lowest rounded-lg overflow-hidden">
+<div class="flex items-center justify-between px-space-md py-space-xs bg-surface-container-high">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mr-2">payload_alignment.json</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-label-sm">4.2 KB</span>
+</div>
+<pre class="p-space-md font-label-md text-label-md text-on-surface overflow-x-auto leading-relaxed text-left" dir="ltr"><code>{
+  <span class="text-primary">"status"</span>: <span class="text-tertiary">"aligned"</span>,
+  <span class="text-primary">"engine"</span>: <span class="text-on-surface">"whisperx-ctc-ar"</span>,
+  <span class="text-primary">"sample_rate"</span>: <span class="text-secondary">48000</span>,
+  <span class="text-primary">"segments"</span>: [
+    {
+      <span class="text-primary">"id"</span>: <span class="text-secondary">1</span>,
+      <span class="text-primary">"start"</span>: <span class="text-secondary">0.000</span>,
+      <span class="text-primary">"end"</span>: <span class="text-secondary">0.420</span>,
+      <span class="text-primary">"text"</span>: <span class="text-tertiary">"بِسْمِ"</span>,
+      <span class="text-primary">"confidence"</span>: <span class="text-secondary">0.994</span>
+    },
+    {
+      <span class="text-primary">"id"</span>: <span class="text-secondary">2</span>,
+      <span class="text-primary">"start"</span>: <span class="text-secondary">0.420</span>,
+      <span class="text-primary">"end"</span>: <span class="text-secondary">0.980</span>,
+      <span class="text-primary">"text"</span>: <span class="text-tertiary">"اللَّهِ"</span>,
+      <span class="text-primary">"confidence"</span>: <span class="text-secondary">0.989</span>
+    }
+  ]
+}</code></pre>
+</div>
+<!-- Output Action Buttons -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<button class="flex items-center justify-center gap-space-xs bg-primary text-on-primary font-headline-md text-headline-md py-space-sm px-space-md rounded-lg active:scale-95 transition-transform shadow-md" id="downloadBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span class="text-body-md font-body-md font-medium">تحميل الملف (.json)</span>
+</button>
+<button class="flex items-center justify-center gap-space-xs bg-surface-container-high text-on-surface hover:text-primary font-headline-md text-headline-md py-space-sm px-space-md rounded-lg active:scale-95 transition-transform" id="copyBtn" type="button">
+<span class="material-symbols-outlined text-[20px]" id="copyIcon">content_copy</span>
+<span class="text-body-md font-body-md font-medium" id="copyText">نسخ الحزمة البرمجية</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interactions for tactile responsiveness
+  const playBtn = document.getElementById('playBtn');
+  const playIcon = document.getElementById('playIcon');
+  let isPlaying = false;
+
+  if (playBtn && playIcon) {
+    playBtn.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      playIcon.innerText = isPlaying ? 'pause' : 'play_arrow';
+    });
+  }
+
+  const copyBtn = document.getElementById('copyBtn');
+  const copyText = document.getElementById('copyText');
+  const copyIcon = document.getElementById('copyIcon');
+
+  if (copyBtn && copyText && copyIcon) {
+    copyBtn.addEventListener('click', () => {
+      copyText.innerText = 'تم النسخ بنجاح!';
+      copyIcon.innerText = 'done';
+      copyBtn.classList.add('text-tertiary');
+      setTimeout(() => {
+        copyText.innerText = 'نسخ الحزمة البرمجية';
+        copyIcon.innerText = 'content_copy';
+        copyBtn.classList.remove('text-tertiary');
+      }, 2000);
+    });
+  }
+
+  const alignTriggerBtn = document.getElementById('alignTriggerBtn');
+  if (alignTriggerBtn) {
+    alignTriggerBtn.addEventListener('click', () => {
+      alignTriggerBtn.classList.add('opacity-80', 'scale-[0.98]');
+      setTimeout(() => {
+        alignTriggerBtn.classList.remove('opacity-80', 'scale-[0.98]');
+      }, 250);
+    });
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.25)]" data-active-classes="text-primary"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] px-space-xs transition-colors text-primary" data-path="aligner" href="#"><span class="material-symbols-outlined text-[22px]">tune</span><span class="font-label-sm text-label-sm mt-0.5">المُطابق</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="timeline" href="#"><span class="material-symbols-outlined text-[22px]">view_timeline</span><span class="font-label-sm text-label-sm mt-0.5">الخط الزمني</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="history" href="#"><span class="material-symbols-outlined text-[22px]">history</span><span class="font-label-sm text-label-sm mt-0.5">السجل</span></a><a class="flex flex-col items-center justify-center min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[22px]">settings</span><span class="font-label-sm text-label-sm mt-0.5">الإعدادات</span></a></div></nav></body></html>

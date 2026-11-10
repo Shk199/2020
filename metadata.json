@@ -1,0 +1,6 @@
+{
+  "name": "SliceVoice",
+  "description": "SliceVoice - أداة احترافية للمطورين وصناع المحتوى للمزامنة الزمنية الدقيقة وتوليد ملفات التقطيع JSON و SRT",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
